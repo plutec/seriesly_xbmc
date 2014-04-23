@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <setting id="username" type="text" label="30017" default=""/>
+    <setting id="password" type="text" option="hidden" label="30018" default=""/>
+    <setting id="debug" type="bool" label="30019" default="false"/>
+</settings>

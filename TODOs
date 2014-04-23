@@ -1,0 +1,17 @@
+- Series más votadas -> OK
+- Pelis más votadas -> OK
+- Indicar los reproductores no disponibles -> OK
+- Limpiar el código
+- Lanzar v.0.8
+
+- En la lista de temporadas de una serie, que aparezca como marcar "Seguir serie"
+- Eliminar parámetros innecesarios de funciones
+- Comentarios de películas y capítulos
+- Poder cambiar el estado de un episodio en una serie.
+- En buscar, indicar si es serie o película y actuar acorde
+- Lanzar v.0.9
+
+- Añadir mensaje de error cuando no se pueda obtener el enlace.
+- Reportar enlaces incorrectos
+- Puntuar películas y series
+- Lanzar v.1
