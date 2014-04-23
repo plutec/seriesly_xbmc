@@ -24,7 +24,7 @@ ROOT_DIR = config.get_runtime_path()
 
 REMOTE_VERSION_FILE = 'https://raw2.github.com/plutec/seriesly_xbmc/master/version.xml'
 
-DESTINATION_FOLDER = os.path.join(config.get_runtime_path(),"..")
+DESTINATION_FOLDER = ROOT_DIR #config.get_runtime_path()
 REMOTE_FILE = 'https://github.com/plutec/seriesly_xbmc/blob/master/downloads/final.zip?raw=true'
 LOCAL_VERSION_FILE = os.path.join( ROOT_DIR , "version.xml")
 

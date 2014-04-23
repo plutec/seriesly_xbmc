@@ -1,9 +1,10 @@
 - Series más votadas -> OK
 - Pelis más votadas -> OK
 - Indicar los reproductores no disponibles -> OK
-- Limpiar el código
+- Limpiar el código -> OK
 - Lanzar v.0.8
 
+- Seguir limpiando código
 - En la lista de temporadas de una serie, que aparezca como marcar "Seguir serie"
 - Eliminar parámetros innecesarios de funciones
 - Comentarios de películas y capítulos

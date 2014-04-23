@@ -19,8 +19,6 @@ from core import logger
 
 logger.info("[default.py] seriesly init...")
 
-
-
 libraries = xbmc.translatePath( os.path.join( config.get_runtime_path(), 'lib/'))
 #bspath = os.path.join(os.path.dirname(os.path.realpath(__file__)),"lib/")
 sys.path.append(libraries)
