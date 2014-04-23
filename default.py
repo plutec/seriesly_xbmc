@@ -8,8 +8,8 @@
 __plugin__  = "series.ly"
 __author__  = "Antonio S. (plutec.net) asanchez@plutec.net"
 __url__     = "http://plutec.net"
-__date__    = "14 Abril 2014"
-__version__ = "0.7"
+__date__    = "23 Abril 2014"
+__version__ = "0.8"
 
 
 import os
