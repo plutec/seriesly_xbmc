@@ -92,7 +92,7 @@ def checkforupdates():
                 hayqueactualizar =  True
                 break
 
-    if (hayqueactualizar):
+    if hayqueactualizar:
         logger.info("[updater.py] actualizacion disponible")
         
         # Añade al listado de XBMC
@@ -105,9 +105,14 @@ def checkforupdates():
         """
         # Avisa con un popup
         dialog = xbmcgui.Dialog()
-        dialog.ok("Versión %s disponible" % versiondescargada,
-            "Se va a actualizar el plugin a la versión %s" % versiondescargada)
+        dialog.ok(u"Versión %s disponible" % versiondescargada,
+            u"Se va a actualizar el plugin a la versión %s" % versiondescargada)
         return True
+    else:
+        # Avisa con un popup
+        dialog = xbmcgui.Dialog()
+        dialog.ok(u"Plugin actualizado",
+            u"El plugin ya se encuentra en la última versión %s" % versiondescargada)
     return False
     
 def update():
